@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,800&display=swap');
+$font-set-1: 'Muli', Arial, sans-serif;
+
+$normal: 400;
+$bold: 700;
+$extra-bold: 800;
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container2{
+    margin-top: 160px;
+}
+
+body{
+    background-color: #fff;
+    font-family: $font-set-1;
+}
+
+.headd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-set-1;
+}
+
+.headd{
+    padding: 30px;
+   
+}
+
+.headd1{
+ 
+   margin-left: 30px;
+    margin-right: 50px;
+   
+}
+.head-img{
+    margin-right: 70px;
+}
+.headd h2{
+   
+    word-wrap: break-word;
+    color: rgb(82, 82, 82);
+    font-size: 35px;
+    font-family: $font-set-1;
+    font-weight: 500;
+   
+}
+.headd1 p{
+    color: rgb(75, 75, 75);
+    font-size: 17px;
+}
+.headd h2 span{
+    color: #0b8;
+}
+
+.headd img{
+    width: 450px;
+ 
+}
+
+// .try-free{
+//     background-color: #0b8;
+//     border: 1px solid black;
+//     border-radius: 5px;
+//     padding-bottom: 3px;
+//     padding-top: 5px;
+//     padding-left: 10px;
+//     padding-right: 10px;
+//     display: inline-block; /* or display: inline; */
+//     font-size: 20px !important;
+// }
+
+.try-free{
+    appearance: button;
+    background-color: #0b8;
+    background-image: none;
+    border: 1px solid #0b8;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#0b8 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+ 
+    font-size: 25px;
+    font-weight: 510;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    font-family: $font-set-1;
+    overflow: visible;
+    padding: 2px 17px;
+    padding-top: 1px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+// .try-free h5{
+//     font-size: 20px;
+// }
+.try-free a{
+   
+    color: white;
+    text-decoration: none;
+    
+}
+
+.midd{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.midd h2{
+    color: #0b8;
+    font-weight: 510;
+    margin-bottom: 10px;
+}
+.midd p{
+    word-wrap: break-word;
+    color: #777777;
+    font-size: 18px;
+    margin: 0px 400px;
+    margin-bottom: 50px;
+}
+
+// .try-free:hover{
+    
+// }
+
+
+
+
+/* CSS */
+// .button-50 {
+
+// }
+
+.try-free a:focus {
+  text-decoration: none;
+}
+
+.try-free a:hover {
+  text-decoration: none;
+  
+}
+
+.try-free:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.try-free:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #0b8 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+
+.try-free h6{
+    font-weight: 510;
+    color: white;
+    font-size: 19px;
+}
+
+
+.midd-top {
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.midd-top1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.midd-top-left{
+    margin-left: 70px;
+}
+
+.midd-top-left1{
+    margin-right: 100px;
+}
+.midd-top-left h2, .mid-top-left1 h2{
+    color: rgb(75, 75, 75);
+    margin-bottom: 10px;
+}
+
+
+
+
+.midd-top-left p, .midd-top-left1 p{
+    margin-right: 40px;
+    font-size: 18px;
+}
+.midd-top-right1 img{
+    width: 300px;
+    margin-right: 70px;
+}
+.midd-top-right img {
+    margin-bottom: 100px;
+    width: 350px;
+    margin-right: 70px;
+}
+.go {
+    text-decoration: none;
+    color: #0b8;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.go:hover{
+    color: #0b8;
+    transform: translateY(-2px);
+}
+
+.go-icon{
+    width: 17px;
+}
+
+.How-to{
+ 
+}
+.How-to-main{
+    margin-top: 10px;
+}
+.How-to h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #0b8;
+}
+
+.How-to  p{
+    text-align: left;
+    margin-right: 100px;
+    color: #777777;
+    font-size: 19px;
+ 
+}
+.How-to p:first-child{
+    margin-top: 80px;
+
+}
+.How-to p:last-child{
+    margin-bottom: 100px;
+    
+}
+
+.How-to-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.How-to-main img{
+    width: 300px;
+  
+   
+}
+.How-to img{
+    width:350px;
+}
+
+.How-to b{
+    padding: 2px 6px;
+    background-color: #0b8;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+}
+  
+
+
+
+
+
+
+
+
+// for mobiles
+@media screen and (max-width: 800px){
+   
+    .container2{
+        margin-top: 100px;
+    }
+.headd{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font-set-1;
+}
+.headd{
+    padding: 30px;
+   
+}
+
+.headd1{
+    margin-top: 30px;
+   margin-left: 0px;
+    margin-right: 0px;
+   
+}
+.head-img{
+    margin-right: 0px;
+}
+
+.headd{
+    padding: 30px;
+
+}
+
+.headd h2{
+   
+    word-wrap: break-word;
+    color: rgb(82, 82, 82);
+    font-size: 20px;
+    font-family: $font-set-1;
+    font-weight: 500;
+   
+}
+.headd1 p{
+    color: rgb(75, 75, 75);
+    font-size: 12px;
+}
+.headd h2 span{
+    color: #0b8;
+}
+
+.headd img{
+ 
+        width: 280px;
+
+ 
+}
+
+
+.try-free{
+   
+    border-radius: 4px;
+    
+    font-size: 5px !important;
+  
+    line-height: 10px;
+    margin: 0 5px 10px 0;
+  
+    padding: 0px 10px;
+
+}
+
+.try-free h6{
+    color: white;
+    font-size: 12px;
+}
+
+
+
+.midd{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.midd h2{
+    color: #0b8;
+    font-weight: 510;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.midd p{
+    word-wrap: break-word;
+    color: #777777;
+  
+    font-size: 12px;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+
+.midd-top {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.midd-top1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.midd-top-left{
+    margin-left: 10px;
+}
+.midd-top-left1{
+    margin-right: 10px;
+}
+.midd-top-left h2, .midd-top-left1 h2{
+    
+    font-size: 20px;
+}
+.midd-top-left p, .midd-top-left1 p{
+    margin-right: 0px;
+    font-size: 14px;
+}
+
+.midd-top-right1 img{
+    width: 150px;
+    margin-right: 10px;
+}
+.midd-top-right img {
+    margin-bottom: 10px;
+    width: 200px;
+    margin-right:10px;
+}
+
+
+.How-to h2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0b8;
+}
+
+.How-to img{
+    width:0px;
+}
+
+.How-to-left{
+    font-size: 18px;
+}
+
+
+.How-to  p{
+    text-align: center;
+    margin-right: 0px;
+    color: #777777;
+    font-size: 15px;
+ 
+}
+.How-to p:first-child{
+    margin-top: 10px;
+
+}
+.How-to p:last-child{
+    margin-bottom: 0px;
+
+}
+
+
+.go {
+    text-decoration: none;
+    color: #0b8;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+}
+
+.go-icon{
+    width: 14px;
+}
+
+  }
