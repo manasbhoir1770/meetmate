@@ -20,7 +20,7 @@ function App() {
         <Routes>
           
 
-          <Route path='/' element={<Mainpage/>} />
+          <Route path='/meetmate' element={<Mainpage/>} />
           <Route path='/Home' element={<Home/>} />
           <Route path = '/Text' element = {<Text />} />
           <Route path = '/Audio' element = {<Audio />} />
